@@ -2,7 +2,7 @@
 # Cabal file when you run `stack build`. See the hpack website for help with
 # this file: <https://github.com/sol/hpack>.
 name: http-client-socks
-version: '0.1.0'
+version: '0.1.1'
 github: "srhoulam/http-client-socks"
 license: MIT
 author: "Saad Rhoulam <saad@rhoulam.tech>"
@@ -33,5 +33,5 @@ library:
   dependencies:
   - base
   - connection >= 0.3.1 && < 0.4
-  - http-client >= 0.6.4 && < 0.7
+  - http-client >= 0.6.4 && < 0.8
   source-dirs: src
